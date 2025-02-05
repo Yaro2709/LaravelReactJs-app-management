@@ -2559,31 +2559,31 @@
         },
         {
             "name": "nunomaduro/termwind",
-            "version": "v2.2.0",
+            "version": "v2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/termwind.git",
-                "reference": "42c84e4e8090766bbd6445d06cd6e57650626ea3"
+                "reference": "52915afe6a1044e8b9cee1bcff836fb63acf9cda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/42c84e4e8090766bbd6445d06cd6e57650626ea3",
-                "reference": "42c84e4e8090766bbd6445d06cd6e57650626ea3",
+                "url": "https://api.github.com/repos/nunomaduro/termwind/zipball/52915afe6a1044e8b9cee1bcff836fb63acf9cda",
+                "reference": "52915afe6a1044e8b9cee1bcff836fb63acf9cda",
                 "shasum": ""
             },
             "require": {
                 "ext-mbstring": "*",
                 "php": "^8.2",
-                "symfony/console": "^7.1.5"
+                "symfony/console": "^7.1.8"
             },
             "require-dev": {
-                "illuminate/console": "^11.28.0",
-                "laravel/pint": "^1.18.1",
+                "illuminate/console": "^11.33.2",
+                "laravel/pint": "^1.18.2",
                 "mockery/mockery": "^1.6.12",
                 "pestphp/pest": "^2.36.0",
-                "phpstan/phpstan": "^1.12.6",
+                "phpstan/phpstan": "^1.12.11",
                 "phpstan/phpstan-strict-rules": "^1.6.1",
-                "symfony/var-dumper": "^7.1.5",
+                "symfony/var-dumper": "^7.1.8",
                 "thecodingmachine/phpstan-strict-rules": "^1.0.0"
             },
             "type": "library",
@@ -2626,7 +2626,7 @@
             ],
             "support": {
                 "issues": "https://github.com/nunomaduro/termwind/issues",
-                "source": "https://github.com/nunomaduro/termwind/tree/v2.2.0"
+                "source": "https://github.com/nunomaduro/termwind/tree/v2.3.0"
             },
             "funding": [
                 {
@@ -2642,7 +2642,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-10-15T16:15:16+00:00"
+            "time": "2024-11-21T10:39:51+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -3511,16 +3511,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v7.1.5",
+            "version": "v7.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "0fa539d12b3ccf068a722bbbffa07ca7079af9ee"
+                "reference": "fefcc18c0f5d0efe3ab3152f15857298868dc2c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/0fa539d12b3ccf068a722bbbffa07ca7079af9ee",
-                "reference": "0fa539d12b3ccf068a722bbbffa07ca7079af9ee",
+                "url": "https://api.github.com/repos/symfony/console/zipball/fefcc18c0f5d0efe3ab3152f15857298868dc2c3",
+                "reference": "fefcc18c0f5d0efe3ab3152f15857298868dc2c3",
                 "shasum": ""
             },
             "require": {
@@ -3584,7 +3584,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v7.1.5"
+                "source": "https://github.com/symfony/console/tree/v7.2.1"
             },
             "funding": [
                 {
@@ -3600,7 +3600,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-20T08:28:38+00:00"
+            "time": "2024-12-11T03:49:26+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -6596,37 +6596,37 @@
         },
         {
             "name": "nunomaduro/collision",
-            "version": "v8.5.0",
+            "version": "v8.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nunomaduro/collision.git",
-                "reference": "f5c101b929c958e849a633283adff296ed5f38f5"
+                "reference": "a94c0fb8f33da6a113cdc0eac936f7c42134de9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/f5c101b929c958e849a633283adff296ed5f38f5",
-                "reference": "f5c101b929c958e849a633283adff296ed5f38f5",
+                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/a94c0fb8f33da6a113cdc0eac936f7c42134de9d",
+                "reference": "a94c0fb8f33da6a113cdc0eac936f7c42134de9d",
                 "shasum": ""
             },
             "require": {
                 "filp/whoops": "^2.16.0",
-                "nunomaduro/termwind": "^2.1.0",
+                "nunomaduro/termwind": "^2.3.0",
                 "php": "^8.2.0",
-                "symfony/console": "^7.1.5"
+                "symfony/console": "^7.2.1"
             },
             "conflict": {
-                "laravel/framework": "<11.0.0 || >=12.0.0",
-                "phpunit/phpunit": "<10.5.1 || >=12.0.0"
+                "laravel/framework": "<11.39.1 || >=13.0.0",
+                "phpunit/phpunit": "<11.5.3 || >=12.0.0"
             },
             "require-dev": {
-                "larastan/larastan": "^2.9.8",
-                "laravel/framework": "^11.28.0",
-                "laravel/pint": "^1.18.1",
-                "laravel/sail": "^1.36.0",
-                "laravel/sanctum": "^4.0.3",
+                "larastan/larastan": "^2.9.12",
+                "laravel/framework": "^11.39.1",
+                "laravel/pint": "^1.20.0",
+                "laravel/sail": "^1.40.0",
+                "laravel/sanctum": "^4.0.7",
                 "laravel/tinker": "^2.10.0",
-                "orchestra/testbench-core": "^9.5.3",
-                "pestphp/pest": "^2.36.0 || ^3.4.0",
+                "orchestra/testbench-core": "^9.9.2",
+                "pestphp/pest": "^2.36.0 || ^3.7.2",
                 "sebastian/environment": "^6.1.0 || ^7.2.0"
             },
             "type": "library",
@@ -6689,7 +6689,7 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2024-10-15T16:06:32+00:00"
+            "time": "2025-01-23T12:48:18+00:00"
         },
         {
             "name": "phar-io/manifest",
